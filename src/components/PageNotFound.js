@@ -18,7 +18,7 @@ const PageNotFound = () => {
         </p>
 
         <div className=" text-center mt-4">
-          <Link to={"/"}>
+          <Link to={"/Todo-app"}>
             <button className="flex group items-center gap-2 m-auto py-3 px-5 text-purple-500 font-semibold bg-amber-50 rounded-full hover:bg-purple-900 duration-300 hover:text-white max-sm:text-sm">
             <FaArrowLeft className=" text-lg max-sm:text-base group-hover:-translate-x-1 duration-75"/> Go Back Home
             </button>
