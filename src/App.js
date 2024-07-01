@@ -14,7 +14,7 @@ function App() {
     <DataProvider>
       <div>
         <Routes>
-          <Route path="/Todo-app" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/addTodo" element={<AddTodo />} />
 
           <Route path="/edit" element={<EditTodo />} />

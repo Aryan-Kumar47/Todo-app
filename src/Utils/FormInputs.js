@@ -109,7 +109,7 @@ const FormInputs = ({
       setTaskName("");
       setTaskDescription("");
       setEmptyInputError(false);
-      navigate("/Todo-app");
+      navigate("/");
 
       setAddNotificationTitle(taskName);
       setAddNotification(true);
